@@ -1,6 +1,6 @@
 // Content.js
 import React, { useState,useEffect ,useRef} from "react";
-import Items from "../additems/addItems"; 
+import Items from "../addItems/addItems"; 
 import { ProgressBar } from "react-bootstrap";
 const Content = () => {
   const [data, setData] = useState([{
