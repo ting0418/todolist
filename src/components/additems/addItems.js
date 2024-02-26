@@ -1,11 +1,10 @@
-// Items.js
+import style from "./addItems.module.scss";
 import React, { useState } from "react";
-import { handleAddItem } from '../handleItems';
+import { handleAddItem } from "../handleItems";
 
-const Items = ({ data, setData ,listRef }) => {
+const Items = ({ data, setData, listRef, isNewItemAdded }) => {
   const [items, setItems] = useState("");
- 
-  
+
   return (
     <>
       <div>
@@ -18,18 +17,17 @@ const Items = ({ data, setData ,listRef }) => {
               setItems(e.target.value);
             }}
             className="form-control"
-            placeholder='請輸入代辦事項'
+            placeholder="請輸入代辦事項"
             aria-label="Recipient's username"
             ariaDescribedby="button-addon2"
           />
           <button
             onClick={() => {
-               setItems("")
-              handleAddItem(items, data, setData);
+              setItems("");
+              handleAddItem(items, data, setData, isNewItemAdded);
               listRef.current.scrollTop = listRef.current.scrollHeight;
-              console.log("listRef in onClick:", listRef.current); // 檢查 listRef 的值
             }}
-            className="btn btn-primary"
+            className={`${style.button_bg} btn text-light`}
             type="button"
             id="button-addon2"
           >
