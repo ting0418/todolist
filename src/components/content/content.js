@@ -63,8 +63,9 @@ const Content = () => {
     if (totalCount === 0) {
       return 0;
     }
-    const total = parseFloat(((doneCount / totalCount) * 100).toFixed(0));
-
+    // const total = parseFloat(((doneCount / totalCount) * 100).toFixed(0));
+    const total = ((doneCount / totalCount) * 100).toFixed(0);
+    console.log(total);
     return total;
   };
   const listRef = useRef(null);

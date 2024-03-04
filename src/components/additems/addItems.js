@@ -25,7 +25,6 @@ const Items = ({ data, setData, listRef, isNewItemAdded }) => {
             onClick={() => {
               setItems("");
               handleAddItem(items, data, setData, isNewItemAdded);
-              listRef.current.scrollTop = listRef.current.scrollHeight;
             }}
             className={`${style.button_bg} btn text-light`}
             type="button"
