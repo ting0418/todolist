@@ -1,3 +1,5 @@
+# 開啟專案
+請先在終端機輸入 npm install下載所需套件，在npm start即可開啟專案
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
