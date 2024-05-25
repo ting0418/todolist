@@ -1,6 +1,6 @@
 import style from "./content.module.scss";
 import React, { useState, useEffect, useRef } from "react";
-import Items from "../addItems/addItems";
+import Items from "../addItems/addItems.js";
 import { ProgressBar } from "react-bootstrap";
 const Content = () => {
   const [data, setData] = useState([
