@@ -2,7 +2,7 @@ import style from "./addItems.module.scss";
 import React, { useState } from "react";
 import { handleAddItem } from "../handleItems";
 
-const Items = ({ data, setData, listRef, isNewItemAdded }) => {
+const Items = ({ data, setData, isNewItemAdded }) => {
   const [items, setItems] = useState("");
 
   return (

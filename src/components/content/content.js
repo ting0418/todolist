@@ -59,7 +59,6 @@ const Content = () => {
   const calculateProgress = () => {
     const doneCount = data.filter((item) => item.done).length;
     const totalCount = data.length;
-
     if (totalCount === 0) {
       return 0;
     }
