@@ -1,5 +1,15 @@
 # 開啟專案
 請先在終端機輸入 npm install下載所需套件，在npm start即可開啟專案
+
+##
+<h1>主要功能</h1>  
+這是一個記錄自己的代辦事項的頁面 <br> <br>
+在下方Add to list的地方可以新增新的代辦事項，新增成功後新的代辦事項會顯示在代辦事項區的最下方 <br> <br>
+
+代辦事項區: <br> <br>
+1.可以輸入新的代辦事項  <br> <br>
+2.代辦事項區完成的代辦事項在完成後可以勾選表示已完成，下方有選項可以將已完成的事項放置在最下方   <br> <br>
+3.代辦事項區是上方有完成事項的進度條以及有多少件完成和未完成的事件，可以讓使用者更清楚知道  <br>  <br>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
