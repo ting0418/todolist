@@ -1,4 +1,4 @@
-import style from "./addItems.module.scss";
+import style from "./addItem.module.scss";
 import React, { useState } from "react";
 import { handleAddItem } from "../handleItems";
 
